@@ -9,11 +9,12 @@
         }
     ],
     "require": {
-        "php": ">=7.0"
+        "php": ">=7.0",
+        "vladimir163/lead-generator": "*"
     },
     "autoload": {
         "psr-4": {
-            "LeadGenerator/": "src/"
+            "LeadGenerator\\": "src/"
         }
     }
 }
